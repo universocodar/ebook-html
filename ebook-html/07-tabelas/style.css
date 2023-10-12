@@ -1,0 +1,13 @@
+body {
+  background: #0e1324;
+  color: #fefefe;
+  font-family: 'Poppins', sans-serif;
+}
+
+table {
+ width: 400px;
+}
+
+th {
+  color: #ff4c1e;
+}

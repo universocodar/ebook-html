@@ -1,0 +1,40 @@
+body {
+  background: #0e1324;
+  color: #fefefe;
+  font-family: 'Poppins', sans-serif;
+}
+
+label {
+  display: block;
+  margin: 5px;
+  color: #ff4c1e;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="url"],
+input[type="search"],  
+input[type="tel"] { 
+  width: 25%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+input[type="checkbox"]+input[type="checkbox"] {
+  margin-left: 15px;
+}
+
+input[type="reset"],
+input[type="submit"],
+button {
+  font-weight: 600;
+  margin: 5px;
+  padding: 10px;
+}

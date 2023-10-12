@@ -1,0 +1,27 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  background: #0e1324;
+  color: #fefefe;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  width: 30%;
+}
+
+input {
+  padding: 10px;
+}
+
+button {
+  background: #00ff88;
+  width: 100px;
+  font-weight: 500;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 3px;
+}

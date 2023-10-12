@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Tipos de Input</title>
+</head>
+
+<body>
+  <label for="nome">Nome:</label>
+  <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+
+  <label for="senha">Senha:</label>
+  <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
+
+  <label for="interesse">Interesses:</label>
+  <input type="checkbox" name="interesses" value="front-end"> Front-end
+  <input type="checkbox" name="interesses" value="back-end"> Back-end
+
+  <label for="modoPagamento">Modo de pagamento:</label>
+  <input type="radio" id="cartao" name="modoPagamento" value="cartao"> Cartão de crédito
+  <input type="radio" id="boleto" name="modoPagamento" value="boleto"> Boleto
+  <input type="radio" id="pix" name="modoPagamento" value="pix"> Pix
+
+  <label for="idade">Idade:</label>
+  <input type="number" name="idade" id="idade" placeholder="Digite sua idade">
+
+  <label for="email">Email:</label>
+  <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+
+  <label for="cor">Selecione uma cor:</label>
+  <input type="color" name="cor" id="cor" placeholder="Selecione uma cor">
+
+  <label for="date">Data:</label>
+  <input type="date" name="data_nascimento" id="data_nascimento" placeholder="Selecione uma data">
+
+  <label for="horario">Selecione um horário:</label>
+  <input type="time" name="horario" id="horario">
+
+  <label for="pesquisa">Pesquisar:</label>
+  <input type="search" name="pesquisa" id="pesquisa" placeholder="Digite sua consulta de pesquisa">
+  <button type="submit">Pesquisar</button>
+
+
+  <label for="url">URL:</label>
+  <input type="url" name="website" id="website" placeholder="Digite a URL do seu site">
+
+  <label for="telefone">Digite seu número de telefone:</label>
+  <input type="tel" name="telefone" id="telefone" placeholder="(12) 12345-1234">
+
+  <label for="file">Arquivo:</label>
+  <input type="file" name="arquivo" id="arquivo" placeholder="Escolha um arquivo">
+
+  <label for="intervalo">Selecione um valor:</label>
+  <input type="range" name="intervalo" id="intervalo" min="0" max="100" step="1" value="50">
+
+  <br><input type="reset" value="Redefinir">
+
+  <br><input type="submit" value="Enviar">
+
+</body>
+
+</html>
